@@ -26,5 +26,13 @@ Obtained from [http://www.lassen.co.nz/pickandgo.php?fyear=1987&tyear=1987&teama
 
 Involves 25 teams (nodes) and 164 unique fixtures between them (edges)
 
-
 ### Gephi visualisations 
+Rugby World Cup 1987 - ForceAtlas 2 layout, with node colour being ranked by total score </br>
+<img src="gephi/rwc_1987-forceatlas2.png" alt="Rugby World Cup 1987 Visualisation" width=500 height=500></br>
+
+Rugby World Cup 2015 - Fruchterman Reingold layout with node colour being ranked by total tries and node size being scaled to total score</br>
+<img src="gephi/rwc_2015-reingold.png" alt="Rugby World Cup 2015 Visualisation" width=500 height=500></br>
+
+All Rugby World Cups - ForceAtlas 2 layout, with node colour being ranked by total score </br>
+<img src="gephi/rwc_all-forceatlas2.png" alt="Rugby World Cup 2015 Visualisation" width=500 height=500>
+
