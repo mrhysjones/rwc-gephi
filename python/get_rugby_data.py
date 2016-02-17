@@ -40,7 +40,7 @@ def get_rugby_data(url, filename):
 
     # Save obtained data to specified file
     results_file = open(filename, 'w')
-    results_file.write('TeamA, TeamB, ScoreA, ScoreB, TriesA, TriesB \n')  # Header row
+    results_file.write('TeamA,TeamB,ScoreA,ScoreB,TriesA,TriesB\n')  # Header row
     results_file.write(results_string)  # Data rows
     results_file.close()
 
