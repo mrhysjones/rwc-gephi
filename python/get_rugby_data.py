@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import urllib
 
 # Gather rugby data from online database (http://www.lassen.co.nz/pickandgo.php) and put into a csv file
+
+# Parse data from specified 'url' and save in CSV format
 def get_rugby_data(url, filename):
     html_data = urllib.urlopen(url).read()
 
